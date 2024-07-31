@@ -1,4 +1,4 @@
-local gui = loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/minhgia2/Roghoul-autofarming-update/main/settings.lua"))():AddWindow("Ro-Ghoul by m1n6", {
+local gui = loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/minhgia2/Roghoul-Farming/main/settings.lua"))():AddWindow("Ro-Ghoul by m1n6", {
     main_color = Color3.fromRGB(0,0,0),
     min_size = Vector2.new(373, 340),
     can_resize = false
@@ -20,7 +20,7 @@ repeat wait() until player:FindFirstChild("PlayerFolder")
 local team, remotes, stat = player.PlayerFolder.Customization.Team.Value, get.ReplicatedStorage.Remotes, player.PlayerFolder.StatsFunction
 local oldtick, farmtick = 0, 0
 local camera = workspace.CurrentCamera
-local myData = loadstring(game:HttpGet("https://raw.githubusercontent.com/minhgia2/Roghoul-autofarming-update/main/test.lua"))()("Ro-Ghoul Autofarm by m1n6", {
+local myData = loadstring(game:HttpGet("https://raw.githubusercontent.com/minhgia2/Roghoul-Farming/main/test.lua"))()("Ro-Ghoul Autofarm by m1n6", {
     Skills = {
         E = false,
         F = false,
